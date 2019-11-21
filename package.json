@@ -1,7 +1,7 @@
 {
-  "name": "Node Template",
+  "name": "node-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
     "author": "Rey Mark A. Engada",
     "email" : "mhikeking0@gmail.com",
@@ -29,5 +29,6 @@
     "dotenv": "^8.2.0",
     "eslint": "^6.6.0",
     "sequelize-cli": "^5.5.1"
-  }
+  },
+  "license": "MIT"
 }
