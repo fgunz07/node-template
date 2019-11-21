@@ -1,5 +1,5 @@
 const Routers = {
-	ApplicationsRouter: require('./application')
+	// ApplicationsRouter: require('./application')
 }
 
 module.exports = Routers
