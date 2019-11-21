@@ -1,0 +1,33 @@
+{
+  "name": "Node Template",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "author": "Rey Mark A. Engada",
+    "email" : "mhikeking0@gmail.com",
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fgunz07/node-template.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "sql:model": "npx sequelize-cli model:generate --name",
+    "sql:migrate": "npx sequelize-cli db:migrate",
+    "sql:rollback": "npx sequelize-cli db:migrate:undo"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "sequelize-cli": "^5.5.1"
+  }
+}
